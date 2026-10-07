@@ -1,6 +1,6 @@
-# Tax//Decoded
+# Group 2: Tax Decoded
 
-A simple sci-fi guide to Philippine taxation and piecewise functions. A full-screen question—“Earn more. Pay how much?”—links directly to the tax calculation and graph. The main content uses open layouts and short explanations; extra notes and activities expand when needed.
+Performance Task 1 General Mathematics by Group 2 of Mobius. A simple sci-fi guide to Philippine taxation and piecewise functions. A full-screen question—“Earn more. Pay how much?”—links directly to the tax calculation and graph. The main content uses open layouts and short explanations; extra notes expand when needed.
 
 ## Open locally
 
@@ -21,10 +21,9 @@ The HTML contains all CSS, JavaScript, SVG graphics, and fonts. Atkinson Hyperle
 - Inspect the equation and sample table below the graph. The applicable formula is highlighted. Open **Conditions & assumptions** for model qualifications.
 - Load a worked example using the example links under the model tabs.
 - Read the brief fairness discussion. Expand **Compare two incomes** for an interactive TRAIN-versus-hypothetical-flat-tax comparison.
-- Expand the exemption notes, other-tax notes, or five-question knowledge check when needed.
-- Use **Print / save as PDF** to print the current model and all supporting notes. Disclosures expand for printing and then return to their prior state.
+- Expand the exemption notes or other-tax notes when needed.
 
-Inputs, quiz results, opinions, and written reflections exist only in the current page. Reload to reset; no data is collected or stored remotely.
+Inputs, opinions, and written reflections exist only in the current page. Reload to reset; no data is collected or stored remotely.
 
 ## Scope
 

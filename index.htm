@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="An illustrated study guide to Philippine tax rates, piecewise functions, worked examples, and tax fairness. Includes interactive equations, tables, graphs, and a knowledge check.">
-  <title>Tax//Decoded — Philippine Taxation & Piecewise Functions</title>
+  <meta name="description" content="An illustrated study guide to Philippine tax rates, piecewise functions, worked examples, and tax fairness. Performance Task 1 in General Mathematics by Group 2 of Mobius, with interactive equations, tables, and graphs.">
+  <title>Group 2: Tax Decoded</title>
   <!-- Internal CSS: all styles live in this file. -->
   <style>
 /* Embedded fonts: Atkinson Hyperlegible, IBM Plex Mono, Space Grotesk.
@@ -696,20 +696,23 @@ footer>span:last-child{font-family:var(--font);font-size:15px}
 @media(max-width:360px){.brand{font-size:19px;gap:6px}.brand-mark{font-size:26px}.sidebar{gap:7px 10px}.sidebar nav{gap:22px}.nav-link{font-size:16px}#reset-lab{font-size:15px}.lesson-intro h1{font-size:46px;letter-spacing:-2.7px}.module-label{font-size:12px;letter-spacing:.3px;gap:6px}.intro-copy>p{font-size:20px}.hero-topic-link{font-size:19px;gap:17px}.hero-bottomline>span:first-child,.hero-bottomline>span:last-child{font-size:10px}.model-tabs button{font-size:17px}.money-input input{font-size:23px}.money-input>span:last-child{font-size:15px}.tax-result>strong{font-size:29px;letter-spacing:-1.7px}.citizen-result{grid-template-columns:1fr}.citizen-result strong{grid-row:1;justify-self:start}.equation-row .expression{font-size:16px}.card-heading h4{font-size:22px}.remaining strong{font-size:17px}.quiz-card h3{font-size:24px}}
 @media print{.topic-art{display:none!important}body{font-family:var(--font);font-size:12pt;line-height:1.6}.sidebar{display:none!important}.lesson-intro{min-height:0;padding:0 0 22px}.module-label{font-size:10pt;margin-bottom:10px}.lesson-intro h1{font-size:34pt;letter-spacing:-1px;margin-bottom:15px}.intro-copy>p{font-size:13pt;max-width:none}.models-section{padding-top:10px}.section-heading h2{font-size:24pt}.section-heading p{font-size:12pt}.eyebrow.small{font-size:10pt}.model-intro h3{font-size:20pt}.model-intro p{font-size:12pt}.law-badge{font-size:10pt}.explorer-grid{grid-template-columns:220px minmax(0,1fr);gap:20px}.card-heading h4{font-size:15pt}.muted,.calculator label,.input-help,.range-labels{font-size:11pt}.graph-card{padding-left:16px}.graph-card svg{height:300px;min-height:0;max-height:none}.graph-insight{font-size:11pt}.chart-label,.chart-axis-label,.graph-legend{font-size:10pt}.money-input{height:45px}.money-input input{font-size:17pt}.money-input>span:first-child{font-size:17pt}.money-input>span:last-child{font-size:11pt}.tax-result>strong{font-size:22pt;letter-spacing:-1px}.tax-result>span,.tax-result>div,.remaining,.remaining strong,.calculation p{font-size:11pt}.calculation>span{font-size:10pt}.details-grid{grid-template-columns:1fr;gap:25px;margin-top:25px;padding-top:24px}.function-wrap{display:flex;gap:15px}.function-name{font-size:20pt}.equation-rows{width:100%;max-width:none}.equation-row{flex-direction:row;justify-content:space-between;gap:20px;padding:5px 0}.equation-row .expression{font-size:11pt;line-height:1.7}.equation-row .condition{font-size:12pt;line-height:1.7}.model-assumptions summary{font-size:12pt}.model-note{font-size:11pt}th,td{font-size:12pt;padding:10px 7px}td:nth-child(2){font-size:11pt}.table-foot,.learning-note{font-size:11pt}.mini-tag{font-size:10pt}.fairness-summary{grid-template-columns:1fr 1.5fr;gap:25px}.fairness-summary h3{font-size:21pt}.fairness-summary p{font-size:12pt}.optional-lesson>summary,.more-info>summary{font-size:18pt;padding:18px 0}.optional-lesson summary small{font-size:11pt}.notes-list li,.reference-grid p{font-size:12pt}.reference-grid h3{font-size:15pt}.sandbox-top h3{font-size:19pt}.sandbox-top p,#system-description,.fairness-insight,.vote-response{font-size:12pt}.citizen-grid{grid-template-columns:1fr 1fr}.citizen-heading h4{font-size:15pt}.citizen-heading label{font-size:11pt}.citizen-heading output{font-size:17pt}.citizen-result>span,.citizen-result small{font-size:11pt}.citizen-result strong{font-size:20pt}.local-note{font-size:10pt}.challenge-intro h2,.quiz-card h3{font-size:18pt}.quiz-top{font-size:10pt}.quiz-card #quiz-context,.quiz-card #quiz-summary,.quiz-feedback{font-size:12pt}.references h3{font-size:14pt}.references a p,.scope-note{font-size:11pt}.references .section-heading h2{font-size:22pt}.reference-number{font-size:10pt}.discussion-prompt p,#reflection label{font-size:12pt}textarea{font-size:12pt}#reflection small{font-size:10pt}footer,footer>span:last-child{font-size:10pt}.footer-brand{font-size:13pt}}
 
+
+.sidebar .brand{white-space:normal;line-height:1.25}
+@media(max-width:600px){.sidebar .brand{font-size:20px;max-width:calc(100% - 72px)}.sidebar .brand-mark{display:none}}
 </style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <aside class="sidebar">
-  <a href="#overview" class="brand" aria-label="Tax Decoded — overview"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>TAX<span class="slash">//</span>DECODED</span><span class="brand-sub">A STUDENT<br>FIELD GUIDE</span></a>
+  <a href="#overview" class="brand" aria-label="Group 2: Tax Decoded — overview"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>Group 2: Tax Decoded</span></a>
   <nav aria-label="Module navigation"><a href="#overview" class="nav-link active">Intro</a><a href="#models" class="nav-link">The math</a><a href="#fairness" class="nav-link">Is it fair?</a><a href="#references" class="nav-link">Sources ↗</a></nav>
-  <button id="reset-lab" title="Reset examples, answers, and reflection">Reset ↻</button>
+  <button id="reset-lab" title="Reset examples and reflection">Reset ↻</button>
 </aside>
 <div class="page">
   <main id="main">
     <section id="overview" class="lesson-intro">
       <div class="intro-copy">
-        <div class="module-label"><span class="tiny-cross" aria-hidden="true">+</span> PHILIPPINE TAXES <span class="label-slash">/</span> DECODED</div>
+        <div class="module-label"><span class="tiny-cross" aria-hidden="true">+</span> Group 2 of Mobius</div>
         <h1>EARN MORE.<br><span class="decoded-word">PAY HOW MUCH?</span></h1>
         <p>Your income changes. So does your tax.<br> Here’s the math behind what you pay.</p>
         <a href="#models" class="hero-topic-link" id="explore-tax">Explore Philippine taxes <span aria-hidden="true">↓</span></a>
@@ -733,7 +736,7 @@ footer>span:last-child{font-family:var(--font);font-size:15px}
           <text x="22" y="194" fill="#87e8e9" font-size="10" font-family="monospace">INPUT: x</text><text x="305" y="46" fill="#c5a5fc" font-size="10" font-family="monospace">OUTPUT: f(x)</text>
           <path d="M33 64V76M27 70H39M383 252V264M377 258H389" stroke="#a18dad"/>
         </svg></div>
-      <div class="hero-bottomline"><span>GENERAL MATHEMATICS / PIECEWISE FUNCTIONS</span><span>SCROLL TO SEE THE MATH ↓</span></div>
+      <div class="hero-bottomline"><span>GENERAL MATHEMATICS / PIECEWISE FUNCTIONS</span><span>SCROLL TO SEE OUR ANSWERS ↓</span></div>
     </section>
     <section id="models" class="models-section">
 <svg class="topic-art graph-art" viewBox="0 0 560 420" aria-hidden="true" focusable="false">
@@ -798,17 +801,8 @@ footer>span:last-child{font-family:var(--font);font-size:15px}
         </div>
       </details>
     </section>
-    <section id="challenge" class="content-section"><details class="optional-lesson" id="quiz-details"><summary><span>Check what you learned <small>5 quick questions</small></span><span aria-hidden="true">+</span></summary><div class="quiz-layout">
-      <div class="challenge-intro"><div class="eyebrow small">02 / CHECK YOUR UNDERSTANDING</div><h2>A quick knowledge check.</h2><p>Choose an answer. We’ll explain the calculation.</p><div class="quiz-doodle" aria-hidden="true">?<span>!</span></div><span class="challenge-note">5 QUESTIONS / EXPLANATIONS INCLUDED</span></div>
-      <div class="quiz-card">
-        <div class="quiz-top"><span id="quiz-counter">QUESTION 01 / 05</span><span id="quiz-score">0 correct</span></div>
-        <div class="quiz-progress" aria-hidden="true"><span id="quiz-progress-bar"></span></div>
-        <div id="quiz-play"><h3 id="quiz-question" tabindex="-1"></h3><p id="quiz-context"></p><div id="quiz-options" class="quiz-options" role="group" aria-labelledby="quiz-question"></div><div id="quiz-feedback" class="quiz-feedback" role="status" hidden></div><button id="quiz-next" class="primary-button" hidden>Next question <span>→</span></button></div>
-        <div id="quiz-finish" hidden><span class="finish-icon" aria-hidden="true">✳</span><h3 id="quiz-finish-title" tabindex="-1">Knowledge check complete.</h3><p id="quiz-summary"></p><button id="quiz-restart" class="primary-button">Try the challenge again <span>↻</span></button><a class="text-button" href="#fairness">Continue to the fairness discussion →</a></div>
-      </div>
-    </div></details></section>
-    <section id="references" class="content-section references"><div class="section-heading"><div><div class="eyebrow small">PRIMARY SOURCES / RESEARCH NOTES</div><h2>Sources & further reading.</h2><p>The references behind the equations and discussion.</p></div><button id="print-report" class="outline-button">Print / save as PDF <span>↗</span></button></div><a href="https://lawphil.net/statutes/repacts/ra2017/ra_10963_2017.html" target="_blank" rel="noopener noreferrer"><span class="reference-number">01</span><div><h3>Republic Act No. 10963 · TRAIN Law</h3><p>Section 5: individual rates effective January 1, 2023 onwards and the 8% option; benefits and transfer taxes.</p></div><span>↗</span></a><a href="https://lawphil.net/statutes/repacts/ra2021/ra_11534_2021.html" target="_blank" rel="noopener noreferrer"><span class="reference-number">02</span><div><h3>Republic Act No. 11534 · CREATE Act</h3><p>Section 6: regular domestic corporate income tax rates and the conditions for the 20% rate.</p></div><span>↗</span></a><a href="https://lawphil.net/statutes/repacts/ra1997/ra_8424_1997.html" target="_blank" rel="noopener noreferrer"><span class="reference-number">03</span><div><h3>National Internal Revenue Code · Read with subsequent amendments</h3><p>Tax bases, deductions, and capital gains. The original code must be read with TRAIN, CREATE, and later laws.</p></div><span>↗</span></a><p class="scope-note">About this study: simplified classroom models based on the cited laws. The personal model uses annual taxable income, not gross salary. Business eligibility, VAT credits, special incentives, minimum corporate income tax, and other filing rules are outside the calculator’s scope. Sample figures are illustrative.</p></section>
-    <footer><a class="footer-brand" href="#overview">TAX//DECODED</a><span>A student guide to the mathematics of taxation.</span><span>Philippine Taxation × Piecewise Functions</span></footer>
+    <section id="references" class="content-section references"><div class="section-heading"><div><div class="eyebrow small">PRIMARY SOURCES / RESEARCH NOTES</div><h2>Sources & further reading.</h2><p>The references behind the equations and discussion.</p></div></div><a href="https://lawphil.net/statutes/repacts/ra2017/ra_10963_2017.html" target="_blank" rel="noopener noreferrer"><span class="reference-number">01</span><div><h3>Republic Act No. 10963 · TRAIN Law</h3><p>Section 5: individual rates effective January 1, 2023 onwards and the 8% option; benefits and transfer taxes.</p></div><span>↗</span></a><a href="https://lawphil.net/statutes/repacts/ra2021/ra_11534_2021.html" target="_blank" rel="noopener noreferrer"><span class="reference-number">02</span><div><h3>Republic Act No. 11534 · CREATE Act</h3><p>Section 6: regular domestic corporate income tax rates and the conditions for the 20% rate.</p></div><span>↗</span></a><a href="https://lawphil.net/statutes/repacts/ra1997/ra_8424_1997.html" target="_blank" rel="noopener noreferrer"><span class="reference-number">03</span><div><h3>National Internal Revenue Code · Read with subsequent amendments</h3><p>Tax bases, deductions, and capital gains. The original code must be read with TRAIN, CREATE, and later laws.</p></div><span>↗</span></a><p class="scope-note">About this study: simplified classroom models based on the cited laws. The personal model uses annual taxable income, not gross salary. Business eligibility, VAT credits, special incentives, minimum corporate income tax, and other filing rules are outside the calculator’s scope. Sample figures are illustrative.</p></section>
+    <footer><a class="footer-brand" href="#overview">Group 2: Tax Decoded</a><span>Performance Task 1 General Mathematics</span></footer>
   </main>
 </div>
 <!-- Internal JavaScript: run after the page elements have loaded. -->
@@ -1039,19 +1033,6 @@ if (typeof document !== 'undefined') {
     $('reflection-toggle').innerHTML = opened ? 'Close reflection <span>−</span>' : 'Add your reflection <span>↗</span>';
     if (opened) $('reflection-text').focus();
   });
-  $('print-report').addEventListener('click', () => window.print());
-  // Print the supporting notes, then restore each disclosure's previous state.
-  let printDetailsState = null;
-  window.addEventListener('beforeprint', () => {
-    if (printDetailsState !== null) return;
-    printDetailsState = [...document.querySelectorAll('details')].map(detail => [detail, detail.open]);
-    printDetailsState.forEach(([detail]) => { detail.open = true; });
-  });
-  window.addEventListener('afterprint', () => {
-    if (printDetailsState === null) return;
-    printDetailsState.forEach(([detail, open]) => { detail.open = open; });
-    printDetailsState = null;
-  });
   const navigation = [...document.querySelectorAll('.nav-link')];
   const sections = navigation.map(link => document.querySelector(link.getAttribute('href')));
   let scrollPending = false;
@@ -1141,85 +1122,6 @@ if (typeof document !== 'undefined') {
     updateCalculation();
     dragExtent = null;
   });
-
-  // Each case can be scored once. Incorrect choices still reveal the reasoning.
-  const cases = [
-    { question: 'Alex earns ₱300,000. How much income tax is due?', context: 'Annual net taxable income. Use the TRAIN schedule from 2023.', options: ['₱45,000 — 15% of everything', '₱7,500 — 15% of the excess', '₱0 — still tax-exempt'], answer: 1, explanation: 'The first ₱250,000 is taxed at 0%. Only the remaining ₱50,000 is taxed at 15%: ₱50,000 × 0.15 = ₱7,500.' },
-    { question: 'You move into a higher personal tax bracket. What happens?', context: 'Think about the slope of the personal income tax graph.', options: ['Your whole income gets the new rate', 'Your income after tax must fall', 'Only the income above the threshold gets the new rate'], answer: 2, explanation: 'Personal income tax is marginal: the higher rate applies only to the excess above its threshold. Crossing a personal bracket does not create a jump in tax due.' },
-    { question: 'Sam earns ₱800,000 in gross receipts. What is the 8% tax?', context: 'Sam is eligible, purely self-employed, non-VAT-registered, and elects the 8% regime.', options: ['₱44,000', '₱64,000', '₱102,500'], answer: 0, explanation: 'The eligible purely self-employed model deducts ₱250,000 first: 0.08 × (₱800,000 − ₱250,000) = ₱44,000. This reduction does not apply to mixed-income business earnings.' },
-    { question: 'Kape Co. earns ₱5,000,001. Which regular corporate rate applies?', context: 'Its qualifying total assets are below ₱100 million. Ignore special incentives and MCIT.', options: ['20% on all taxable income', '25% on all taxable income', '20% up to ₱5 million, then 25% on ₱1'], answer: 1, explanation: 'Both conditions are required for 20%. Exceeding ₱5 million taxable income makes regular CIT 25% of all taxable income: ₱1,250,000.25. Corporate rates are not personal marginal brackets.' },
-    { question: '₱500,000 income. ₱42,500 tax. What’s the effective rate?', context: 'Effective rate is tax due ÷ taxable income × 100.', options: ['20%', '15%', '8.5%'], answer: 2, explanation: '₱42,500 ÷ ₱500,000 × 100 = 8.5%. The effective rate averages the tax over all income; the marginal rate on the last portion is 20%.' }
-  ];
-  let caseIndex = 0;
-  let correctAnswers = 0;
-  let caseAnswered = false;
-  function renderCase(moveFocus = false) {
-    const item = cases[caseIndex];
-    caseAnswered = false;
-    $('quiz-play').hidden = false;
-    $('quiz-finish').hidden = true;
-    $('quiz-counter').textContent = `QUESTION ${String(caseIndex + 1).padStart(2, '0')} / 05`;
-    $('quiz-score').textContent = `${correctAnswers} correct`;
-    $('quiz-progress-bar').style.width = caseIndex / cases.length * 100 + '%';
-    $('quiz-question').textContent = item.question;
-    $('quiz-context').textContent = item.context;
-    $('quiz-feedback').hidden = true;
-    $('quiz-feedback').className = 'quiz-feedback';
-    $('quiz-next').hidden = true;
-    $('quiz-next').innerHTML = caseIndex === cases.length - 1 ? 'See my results <span>↗</span>' : 'Next question <span>→</span>';
-    $('quiz-options').replaceChildren();
-    item.options.forEach((option, index) => {
-      const button = document.createElement('button');
-      const letter = document.createElement('span');
-      letter.textContent = String.fromCharCode(65 + index);
-      button.append(letter, document.createTextNode(option));
-      button.addEventListener('click', () => {
-        if (caseAnswered) return;
-        caseAnswered = true;
-        const correct = index === item.answer;
-        if (correct) correctAnswers++;
-        [...$('quiz-options').children].forEach((choice, choiceIndex) => {
-          // aria-disabled preserves focus on the chosen answer for keyboard users.
-          choice.setAttribute('aria-disabled', 'true');
-          if (choiceIndex === item.answer || choiceIndex === index) {
-            choice.classList.add(choiceIndex === item.answer ? 'correct' : 'incorrect');
-            const verdict = document.createElement('b');
-            verdict.className = 'answer-result';
-            verdict.textContent = choiceIndex === item.answer ? '✓ Correct' : '× Your pick';
-            choice.append(verdict);
-          }
-        });
-        $('quiz-score').textContent = `${correctAnswers} correct`;
-        $('quiz-feedback').textContent = (correct ? 'Correct. ' : 'Review the rule. ') + item.explanation;
-        $('quiz-feedback').classList.toggle('correct', correct);
-        $('quiz-feedback').hidden = false;
-        $('quiz-next').hidden = false;
-        $('quiz-progress-bar').style.width = (caseIndex + 1) / cases.length * 100 + '%';
-      });
-      $('quiz-options').append(button);
-    });
-    if (moveFocus) $('quiz-question').focus({ preventScroll: true });
-  }
-  $('quiz-next').addEventListener('click', () => {
-    if (!caseAnswered) return;
-    if (caseIndex < cases.length - 1) {
-      caseIndex++;
-      renderCase(true);
-    } else {
-      $('quiz-play').hidden = true;
-      $('quiz-finish').hidden = false;
-      $('quiz-counter').textContent = 'KNOWLEDGE CHECK COMPLETE';
-      $('quiz-finish-title').textContent = correctAnswers === 5 ? 'Tax detective: confirmed.' : 'Knowledge check complete. Keep exploring.';
-      $('quiz-summary').textContent = `${correctAnswers} out of 5 correct. ${correctAnswers === 5 ? 'You distinguished marginal rates, effective rates, and eligibility conditions. Continue to the fairness discussion.' : 'Review the explanations and the relevant equations, then try again to check your understanding.'}`;
-      $('quiz-finish-title').focus({ preventScroll: true });
-    }
-  });
-  $('quiz-restart').addEventListener('click', () => {
-    caseIndex = 0;
-    correctAnswers = 0;
-    renderCase(true);
-  });
-  renderCase();
 
   let taxSystem = 'train';
   function updateFairness() {
